@@ -14,4 +14,12 @@ interface Block
     public function marginCol():Size;
 
     public function marginRow():Size;
+
+    public function innerWidth():Size;
+
+    public function innerHeight():Size;
+
+    public function outerWidth():Size;
+
+    public function outerHeight():Size;
 }
