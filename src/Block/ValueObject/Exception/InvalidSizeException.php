@@ -7,7 +7,7 @@ namespace MarcoFodor\RelativeSpreadSheetBlock\ValueObject\Exception;
 use InvalidArgumentException;
 use Override;
 
-final class InvalidMarginException extends InvalidArgumentException
+final class InvalidSizeException extends InvalidArgumentException
 {
     #[Override]
     final public function __construct(int $value)

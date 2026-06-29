@@ -4,15 +4,15 @@ declare( strict_types = 1 );
 
 namespace MarcoFodor\RelativeSpreadSheetBlock\ValueObject;
 
-use MarcoFodor\RelativeSpreadSheetBlock\ValueObject\Exception\InvalidMarginException;
+use MarcoFodor\RelativeSpreadSheetBlock\ValueObject\Exception\InvalidSizeException;
 
-final readonly class Margin
+final readonly class Size
 {
     private function __construct(private int $value)
     {
         if($value < 0)
         {
-            throw new InvalidMarginException($value);
+            throw new InvalidSizeException($value);
         }
     }
 
