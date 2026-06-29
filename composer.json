@@ -1,12 +1,12 @@
 {
     "autoload": {
         "psr-4": {
-            "MarcoFodor\\": "src/"
+            "MarcoFodor\\RelativeSpreadSheet": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "MarcoFodor\\Tests\\": "tests/"
+            "MarcoFodor\\RelativeSpreadSheet\\Tests\\": "tests/"
         }
     }
 }
